@@ -981,6 +981,6 @@ for i, v in pairs(Vehicles_2:GetChildren()) do
 	end)
 end
 
-workspace.Storm.Wind:GetPropertyChangedSignal("Value"):Connect(function()
-CurrentWinds.Text = "Current Winds: "..tostring(workspace.Storm.Wind.Value)
+workspace.Storm.Tornado.Wind:GetPropertyChangedSignal("Value"):Connect(function()
+CurrentWinds.Text = "Current Winds: "..tostring(workspace.Storm.Tornado.Wind.Value)
 end)
