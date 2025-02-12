@@ -877,13 +877,6 @@ function findProbe()
 	end
 end
 
-function updateSpeeds()
-	while wait() do
-		local MPH = workspace.Storm.Tornado.Wind
-		CurrentWinds.Text = "Current Winds: "..MPH.Value
-	end
-end
-
 Fling.MouseButton1Click:Connect(function()
 	local char = workspace:FindFirstChild(plr.Name)
 	local vehicles = workspace.Vehicles
@@ -988,4 +981,6 @@ for i, v in pairs(Vehicles_2:GetChildren()) do
 	end)
 end
 
-spawn(updateSpeeds)
+workspace.Storm.Wind:GetPropertyChangedSignal("Value"):Connect(function()
+CurrentWinds.Text = "Current Winds: "..tostring(workspace.Storm.Wind.Value)
+end)
