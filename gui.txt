@@ -88,12 +88,12 @@ local Wind = Instance.new("TextLabel")
 --Properties:
 
 Vehicles.Name = "Vehicles"
+Vehicles.Position = UDim2.new(0.499441653, 0, 0.499620527, 0)
 Vehicles.Parent = TS2Gui
 Vehicles.AnchorPoint = Vector2.new(0.5, 0.5)
 Vehicles.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 Vehicles.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Vehicles.BorderSizePixel = 0
-Vehicles.Position = UDim2.new(0.499441653, 0, 0.499620527, 0)
 Vehicles.Size = UDim2.new(0, 260, 0, 414)
 Vehicles.Visible = false
 Vehicles.ZIndex = 2
@@ -460,7 +460,6 @@ Fling.BackgroundColor3 = Color3.fromRGB(159, 159, 159)
 Fling.BackgroundTransparency = 0.500
 Fling.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Fling.BorderSizePixel = 0
-Fling.Position = UDim2.new(0.396799952, 0, 0, 0)
 Fling.Size = UDim2.new(0, 98, 0, 38)
 Fling.Font = Enum.Font.SourceSans
 Fling.Text = "Fling"
@@ -480,7 +479,6 @@ RemoveRadarBarriers.BackgroundColor3 = Color3.fromRGB(159, 159, 159)
 RemoveRadarBarriers.BackgroundTransparency = 0.500
 RemoveRadarBarriers.BorderColor3 = Color3.fromRGB(0, 0, 0)
 RemoveRadarBarriers.BorderSizePixel = 0
-RemoveRadarBarriers.Position = UDim2.new(0.396799952, 0, 0, 0)
 RemoveRadarBarriers.Size = UDim2.new(0, 98, 0, 38)
 RemoveRadarBarriers.Font = Enum.Font.SourceSans
 RemoveRadarBarriers.Text = "Remove Radar Barriers"
@@ -497,7 +495,6 @@ FindCar.BackgroundColor3 = Color3.fromRGB(159, 159, 159)
 FindCar.BackgroundTransparency = 0.500
 FindCar.BorderColor3 = Color3.fromRGB(0, 0, 0)
 FindCar.BorderSizePixel = 0
-FindCar.Position = UDim2.new(0.396799952, 0, 0, 0)
 FindCar.Size = UDim2.new(0, 98, 0, 38)
 FindCar.Font = Enum.Font.SourceSans
 FindCar.Text = "Find Car"
@@ -514,7 +511,6 @@ TPToCar.BackgroundColor3 = Color3.fromRGB(159, 159, 159)
 TPToCar.BackgroundTransparency = 0.500
 TPToCar.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TPToCar.BorderSizePixel = 0
-TPToCar.Position = UDim2.new(0.396799952, 0, 0, 0)
 TPToCar.Size = UDim2.new(0, 98, 0, 38)
 TPToCar.Font = Enum.Font.SourceSans
 TPToCar.Text = "TP To Car"
@@ -531,7 +527,6 @@ IY.BackgroundColor3 = Color3.fromRGB(159, 159, 159)
 IY.BackgroundTransparency = 0.500
 IY.BorderColor3 = Color3.fromRGB(0, 0, 0)
 IY.BorderSizePixel = 0
-IY.Position = UDim2.new(0.396799952, 0, 0, 0)
 IY.Size = UDim2.new(0, 98, 0, 38)
 IY.Font = Enum.Font.SourceSans
 IY.Text = "IY"
@@ -548,7 +543,6 @@ Flip.BackgroundColor3 = Color3.fromRGB(159, 159, 159)
 Flip.BackgroundTransparency = 0.500
 Flip.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Flip.BorderSizePixel = 0
-Flip.Position = UDim2.new(0.396799952, 0, 0, 0)
 Flip.Size = UDim2.new(0, 98, 0, 38)
 Flip.Font = Enum.Font.SourceSans
 Flip.Text = "Flip"
@@ -565,7 +559,6 @@ StormChasers.BackgroundColor3 = Color3.fromRGB(159, 159, 159)
 StormChasers.BackgroundTransparency = 0.500
 StormChasers.BorderColor3 = Color3.fromRGB(0, 0, 0)
 StormChasers.BorderSizePixel = 0
-StormChasers.Position = UDim2.new(0.396799952, 0, 0, 0)
 StormChasers.Size = UDim2.new(0, 98, 0, 38)
 StormChasers.Font = Enum.Font.SourceSans
 StormChasers.Text = "Storm Chasers"
@@ -582,7 +575,6 @@ Police.BackgroundColor3 = Color3.fromRGB(159, 159, 159)
 Police.BackgroundTransparency = 0.500
 Police.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Police.BorderSizePixel = 0
-Police.Position = UDim2.new(0.396799952, 0, 0, 0)
 Police.Size = UDim2.new(0, 98, 0, 38)
 Police.Font = Enum.Font.SourceSans
 Police.Text = "Police"
@@ -599,7 +591,6 @@ Citizens.BackgroundColor3 = Color3.fromRGB(159, 159, 159)
 Citizens.BackgroundTransparency = 0.500
 Citizens.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Citizens.BorderSizePixel = 0
-Citizens.Position = UDim2.new(0.396799952, 0, 0, 0)
 Citizens.Size = UDim2.new(0, 98, 0, 38)
 Citizens.Font = Enum.Font.SourceSans
 Citizens.Text = "Citizens"
@@ -616,7 +607,6 @@ PaintBucket.BackgroundColor3 = Color3.fromRGB(159, 159, 159)
 PaintBucket.BackgroundTransparency = 0.500
 PaintBucket.BorderColor3 = Color3.fromRGB(0, 0, 0)
 PaintBucket.BorderSizePixel = 0
-PaintBucket.Position = UDim2.new(0.396799952, 0, 0, 0)
 PaintBucket.Size = UDim2.new(0, 98, 0, 38)
 PaintBucket.Font = Enum.Font.SourceSans
 PaintBucket.Text = "Paint Bucket"
@@ -633,7 +623,6 @@ Probe.BackgroundColor3 = Color3.fromRGB(159, 159, 159)
 Probe.BackgroundTransparency = 0.500
 Probe.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Probe.BorderSizePixel = 0
-Probe.Position = UDim2.new(0.396799952, 0, 0, 0)
 Probe.Size = UDim2.new(0, 98, 0, 38)
 Probe.Font = Enum.Font.SourceSans
 Probe.Text = "Probe"
@@ -650,7 +639,6 @@ SpawnProbe.BackgroundColor3 = Color3.fromRGB(159, 159, 159)
 SpawnProbe.BackgroundTransparency = 0.500
 SpawnProbe.BorderColor3 = Color3.fromRGB(0, 0, 0)
 SpawnProbe.BorderSizePixel = 0
-SpawnProbe.Position = UDim2.new(0.396799952, 0, 0, 0)
 SpawnProbe.Size = UDim2.new(0, 98, 0, 38)
 SpawnProbe.Font = Enum.Font.SourceSans
 SpawnProbe.Text = "Spawn Probe"
@@ -667,7 +655,6 @@ FlipRemove.BackgroundColor3 = Color3.fromRGB(159, 159, 159)
 FlipRemove.BackgroundTransparency = 0.500
 FlipRemove.BorderColor3 = Color3.fromRGB(0, 0, 0)
 FlipRemove.BorderSizePixel = 0
-FlipRemove.Position = UDim2.new(0.396799952, 0, 0, 0)
 FlipRemove.Size = UDim2.new(0, 98, 0, 38)
 FlipRemove.Font = Enum.Font.SourceSans
 FlipRemove.Text = "Flip Remove"
@@ -684,7 +671,6 @@ RadarLights.BackgroundColor3 = Color3.fromRGB(159, 159, 159)
 RadarLights.BackgroundTransparency = 0.500
 RadarLights.BorderColor3 = Color3.fromRGB(0, 0, 0)
 RadarLights.BorderSizePixel = 0
-RadarLights.Position = UDim2.new(0.396799952, 0, 0, 0)
 RadarLights.Size = UDim2.new(0, 98, 0, 38)
 RadarLights.Font = Enum.Font.SourceSans
 RadarLights.Text = "Enable Radar Lights"
@@ -701,7 +687,6 @@ Gravity.BackgroundColor3 = Color3.fromRGB(159, 159, 159)
 Gravity.BackgroundTransparency = 0.500
 Gravity.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Gravity.BorderSizePixel = 0
-Gravity.Position = UDim2.new(0.396799952, 0, 0, 0)
 Gravity.Size = UDim2.new(0, 98, 0, 38)
 Gravity.Font = Enum.Font.SourceSans
 Gravity.Text = "Gravity Gui"
@@ -718,7 +703,6 @@ QuickStorm.BackgroundColor3 = Color3.fromRGB(159, 159, 159)
 QuickStorm.BackgroundTransparency = 0.500
 QuickStorm.BorderColor3 = Color3.fromRGB(0, 0, 0)
 QuickStorm.BorderSizePixel = 0
-QuickStorm.Position = UDim2.new(0.396799952, 0, 0, 0)
 QuickStorm.Size = UDim2.new(0, 98, 0, 38)
 QuickStorm.Font = Enum.Font.SourceSans
 QuickStorm.Text = "Quick Storm"
@@ -735,7 +719,6 @@ Ring.BackgroundColor3 = Color3.fromRGB(159, 159, 159)
 Ring.BackgroundTransparency = 0.500
 Ring.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Ring.BorderSizePixel = 0
-Ring.Position = UDim2.new(0.396799952, 0, 0, 0)
 Ring.Size = UDim2.new(0, 98, 0, 38)
 Ring.Font = Enum.Font.SourceSans
 Ring.Text = "Ring Script"
@@ -752,7 +735,6 @@ Punch.BackgroundColor3 = Color3.fromRGB(159, 159, 159)
 Punch.BackgroundTransparency = 0.500
 Punch.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Punch.BorderSizePixel = 0
-Punch.Position = UDim2.new(0.396799952, 0, 0, 0)
 Punch.Size = UDim2.new(0, 98, 0, 38)
 Punch.Font = Enum.Font.SourceSans
 Punch.Text = "Punch"
@@ -769,7 +751,6 @@ Vehicles_2.BackgroundColor3 = Color3.fromRGB(159, 159, 159)
 Vehicles_2.BackgroundTransparency = 0.500
 Vehicles_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Vehicles_2.BorderSizePixel = 0
-Vehicles_2.Position = UDim2.new(0.396799952, 0, 0, 0)
 Vehicles_2.Size = UDim2.new(0, 98, 0, 38)
 Vehicles_2.Font = Enum.Font.SourceSans
 Vehicles_2.Text = "Vehicles"
@@ -786,7 +767,6 @@ Egg.BackgroundColor3 = Color3.fromRGB(159, 159, 159)
 Egg.BackgroundTransparency = 0.500
 Egg.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Egg.BorderSizePixel = 0
-Egg.Position = UDim2.new(0.396799952, 0, 0, 0)
 Egg.Size = UDim2.new(0, 98, 0, 38)
 Egg.Font = Enum.Font.SourceSans
 Egg.Text = "TP to Secret Hat"
@@ -876,6 +856,15 @@ function findProbe()
 		end    
 	end
 end
+function notif(text)
+	local StarterGui = game:GetService("StarterGui")
+
+	StarterGui:SetCore("SendNotification", {
+		Title = "TS2 GUI",
+		Text = text,
+		Duration = 5
+	})
+end
 
 for i, v in pairs(Vehicles:GetChildren()) do
 	v.MouseButton1Click:Connect(function()
@@ -959,4 +948,446 @@ FlipRemove.MouseButton1Click:Connect(function()
 end)
 Egg.MouseButton1Click:Connect(function()
 	hrp.CFrame = workspace.Landscape2.Handle.CFrame + Vector3.new(0,50,0)
+end)
+QuickStorm.MouseButton1Click:Connect(function()
+	notif("Quick storm has been enabled.")
+end)
+Ring.MouseButton1Click:Connect(function()
+	--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+	local Players = game:GetService("Players")
+	local RunService = game:GetService("RunService")
+	local UserInputService = game:GetService("UserInputService")
+	local SoundService = game:GetService("SoundService")
+	local StarterGui = game:GetService("StarterGui")
+	local TextChatService = game:GetService("TextChatService")
+
+	local LocalPlayer = Players.LocalPlayer
+
+	-- Sound Effects
+	local function playSound(soundId)
+		local sound = Instance.new("Sound")
+		sound.SoundId = "rbxassetid://" .. soundId
+		sound.Parent = SoundService
+		sound:Play()
+		sound.Ended:Connect(function()
+			sound:Destroy()
+		end)
+	end
+
+	-- Play initial sound
+	playSound("2865227271")
+
+	-- GUI Creation
+	local ScreenGui = Instance.new("ScreenGui")
+	ScreenGui.Name = "SuperRingPartsGUI"
+	ScreenGui.ResetOnSpawn = false
+	ScreenGui.Parent = LocalPlayer:WaitForChild("PlayerGui")
+
+	local MainFrame = Instance.new("Frame")
+	MainFrame.Size = UDim2.new(0, 220, 0, 190)
+	MainFrame.Position = UDim2.new(0.5, -110, 0.5, -95)
+	MainFrame.BackgroundColor3 = Color3.fromRGB(205, 170, 125) -- Light brown
+	MainFrame.BorderSizePixel = 0
+	MainFrame.Parent = ScreenGui
+
+	-- Make the GUI round
+	local UICorner = Instance.new("UICorner")
+	UICorner.CornerRadius = UDim.new(0, 20)
+	UICorner.Parent = MainFrame
+
+	local Title = Instance.new("TextLabel")
+	Title.Size = UDim2.new(1, 0, 0, 40)
+	Title.Position = UDim2.new(0, 0, 0, 0)
+	Title.Text = "Super Ring Parts v3"
+	Title.TextColor3 = Color3.fromRGB(101, 67, 33) -- Dark brown
+	Title.BackgroundColor3 = Color3.fromRGB(222, 184, 135) -- Lighter brown
+	Title.Font = Enum.Font.Fondamento -- More elegant font
+	Title.TextSize = 22
+	Title.Parent = MainFrame
+
+	-- Round the title
+	local TitleCorner = Instance.new("UICorner")
+	TitleCorner.CornerRadius = UDim.new(0, 20)
+	TitleCorner.Parent = Title
+
+	local ToggleButton = Instance.new("TextButton")
+	ToggleButton.Size = UDim2.new(0.8, 0, 0, 35)
+	ToggleButton.Position = UDim2.new(0.1, 0, 0.3, 0)
+	ToggleButton.Text = "Ring Parts Off"
+	ToggleButton.BackgroundColor3 = Color3.fromRGB(160, 82, 45) -- Sienna
+	ToggleButton.TextColor3 = Color3.fromRGB(255, 248, 220) -- Cornsilk
+	ToggleButton.Font = Enum.Font.Fondamento
+	ToggleButton.TextSize = 18
+	ToggleButton.Parent = MainFrame
+
+	-- Round the toggle button
+	local ToggleCorner = Instance.new("UICorner")
+	ToggleCorner.CornerRadius = UDim.new(0, 10)
+	ToggleCorner.Parent = ToggleButton
+
+	local DecreaseRadius = Instance.new("TextButton")
+	DecreaseRadius.Size = UDim2.new(0.2, 0, 0, 35)
+	DecreaseRadius.Position = UDim2.new(0.1, 0, 0.6, 0)
+	DecreaseRadius.Text = "<"
+	DecreaseRadius.BackgroundColor3 = Color3.fromRGB(139, 69, 19) -- Saddle brown
+	DecreaseRadius.TextColor3 = Color3.fromRGB(255, 248, 220) -- Cornsilk
+	DecreaseRadius.Font = Enum.Font.Fondamento
+	DecreaseRadius.TextSize = 18
+	DecreaseRadius.Parent = MainFrame
+
+	-- Round the decrease button
+	local DecreaseCorner = Instance.new("UICorner")
+	DecreaseCorner.CornerRadius = UDim.new(0, 10)
+	DecreaseCorner.Parent = DecreaseRadius
+
+	local IncreaseRadius = Instance.new("TextButton")
+	IncreaseRadius.Size = UDim2.new(0.2, 0, 0, 35)
+	IncreaseRadius.Position = UDim2.new(0.7, 0, 0.6, 0)
+	IncreaseRadius.Text = ">"
+	IncreaseRadius.BackgroundColor3 = Color3.fromRGB(139, 69, 19) -- Saddle brown
+	IncreaseRadius.TextColor3 = Color3.fromRGB(255, 248, 220) -- Cornsilk
+	IncreaseRadius.Font = Enum.Font.Fondamento
+	IncreaseRadius.TextSize = 18
+	IncreaseRadius.Parent = MainFrame
+
+	-- Round the increase button
+	local IncreaseCorner = Instance.new("UICorner")
+	IncreaseCorner.CornerRadius = UDim.new(0, 10)
+	IncreaseCorner.Parent = IncreaseRadius
+
+	local RadiusDisplay = Instance.new("TextLabel")
+	RadiusDisplay.Size = UDim2.new(0.4, 0, 0, 35)
+	RadiusDisplay.Position = UDim2.new(0.3, 0, 0.6, 0)
+	RadiusDisplay.Text = "Radius: 50"
+	RadiusDisplay.BackgroundColor3 = Color3.fromRGB(210, 180, 140) -- Tan
+	RadiusDisplay.TextColor3 = Color3.fromRGB(101, 67, 33) -- Dark brown
+	RadiusDisplay.Font = Enum.Font.Fondamento
+	RadiusDisplay.TextSize = 18
+	RadiusDisplay.Parent = MainFrame
+
+	-- Round the radius display
+	local RadiusCorner = Instance.new("UICorner")
+	RadiusCorner.CornerRadius = UDim.new(0, 10)
+	RadiusCorner.Parent = RadiusDisplay
+
+	local Watermark = Instance.new("TextLabel")
+	Watermark.Size = UDim2.new(1, 0, 0, 20)
+	Watermark.Position = UDim2.new(0, 0, 1, -20)
+	Watermark.Text = "Super Ring [V3] - Made By Yumm"
+	Watermark.TextColor3 = Color3.fromRGB(101, 67, 33) -- Dark brown
+	Watermark.BackgroundTransparency = 1
+	Watermark.Font = Enum.Font.Fondamento
+	Watermark.TextSize = 14
+	Watermark.Parent = MainFrame
+
+	-- Add minimize button
+	local MinimizeButton = Instance.new("TextButton")
+	MinimizeButton.Size = UDim2.new(0, 30, 0, 30)
+	MinimizeButton.Position = UDim2.new(1, -35, 0, 5)
+	MinimizeButton.Text = "-"
+	MinimizeButton.BackgroundColor3 = Color3.fromRGB(139, 69, 19) -- Saddle brown
+	MinimizeButton.TextColor3 = Color3.fromRGB(255, 248, 220) -- Cornsilk
+	MinimizeButton.Font = Enum.Font.Fondamento
+	MinimizeButton.TextSize = 18
+	MinimizeButton.Parent = MainFrame
+
+	-- Round the minimize button
+	local MinimizeCorner = Instance.new("UICorner")
+	MinimizeCorner.CornerRadius = UDim.new(0, 15)
+	MinimizeCorner.Parent = MinimizeButton
+
+	-- Minimize functionality
+	local minimized = false
+	MinimizeButton.MouseButton1Click:Connect(function()
+		minimized = not minimized
+		if minimized then
+			MainFrame:TweenSize(UDim2.new(0, 220, 0, 40), "Out", "Quad", 0.3, true)
+			MinimizeButton.Text = "+"
+			ToggleButton.Visible = false
+			DecreaseRadius.Visible = false
+			IncreaseRadius.Visible = false
+			RadiusDisplay.Visible = false
+			Watermark.Visible = false
+		else
+			MainFrame:TweenSize(UDim2.new(0, 220, 0, 190), "Out", "Quad", 0.3, true)
+			MinimizeButton.Text = "-"
+			ToggleButton.Visible = true
+			DecreaseRadius.Visible = true
+			IncreaseRadius.Visible = true
+			RadiusDisplay.Visible = true
+			Watermark.Visible = true
+		end
+		playSound("12221967")
+	end)
+
+	-- Make GUI draggable
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+
+	local function update(input)
+		local delta = input.Position - dragStart
+		MainFrame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+
+	MainFrame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = MainFrame.Position
+
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+
+	MainFrame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+
+	-- Ring Parts Logic
+	if not getgenv().Network then
+		getgenv().Network = {
+			BaseParts = {},
+			Velocity = Vector3.new(14.46262424, 14.46262424, 14.46262424)
+		}
+		Network.RetainPart = function(Part)
+			if typeof(Part) == "Instance" and Part:IsA("BasePart") and Part:IsDescendantOf(workspace) then
+				table.insert(Network.BaseParts, Part)
+				Part.CustomPhysicalProperties = PhysicalProperties.new(0, 0, 0, 0, 0)
+				Part.CanCollide = false
+			end
+		end
+		local function EnablePartControl()
+			LocalPlayer.ReplicationFocus = workspace
+			RunService.Heartbeat:Connect(function()
+				sethiddenproperty(LocalPlayer, "SimulationRadius", math.huge)
+				for _, Part in pairs(Network.BaseParts) do
+					if Part:IsDescendantOf(workspace) then
+						Part.Velocity = Network.Velocity
+					end
+				end
+			end)
+		end
+		EnablePartControl()
+	end
+
+	local radius = 50
+	local height = 100
+	local rotationSpeed = 10
+	local attractionStrength = 1000
+	local ringPartsEnabled = false
+
+	local function RetainPart(Part)
+		if Part:IsA("BasePart") and not Part.Anchored and Part:IsDescendantOf(workspace) then
+			if Part.Parent == LocalPlayer.Character or Part:IsDescendantOf(LocalPlayer.Character) then
+				return false
+			end
+
+			Part.CustomPhysicalProperties = PhysicalProperties.new(0, 0, 0, 0, 0)
+			Part.CanCollide = false
+			return true
+		end
+		return false
+	end
+
+	local parts = {}
+	local function addPart(part)
+		if RetainPart(part) then
+			if not table.find(parts, part) then
+				table.insert(parts, part)
+			end
+		end
+	end
+
+	local function removePart(part)
+		local index = table.find(parts, part)
+		if index then
+			table.remove(parts, index)
+		end
+	end
+
+	for _, part in pairs(workspace:GetDescendants()) do
+		addPart(part)
+	end
+
+	workspace.DescendantAdded:Connect(addPart)
+	workspace.DescendantRemoving:Connect(removePart)
+
+	RunService.Heartbeat:Connect(function()
+		if not ringPartsEnabled then return end
+
+		local humanoidRootPart = LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
+		if humanoidRootPart then
+			local tornadoCenter = humanoidRootPart.Position
+			for _, part in pairs(parts) do
+				if part.Parent and not part.Anchored then
+					local pos = part.Position
+					local distance = (Vector3.new(pos.X, tornadoCenter.Y, pos.Z) - tornadoCenter).Magnitude
+					local angle = math.atan2(pos.Z - tornadoCenter.Z, pos.X - tornadoCenter.X)
+					local newAngle = angle + math.rad(rotationSpeed)
+					local targetPos = Vector3.new(
+						tornadoCenter.X + math.cos(newAngle) * math.min(radius, distance),
+						tornadoCenter.Y + (height * (math.abs(math.sin((pos.Y - tornadoCenter.Y) / height)))),
+						tornadoCenter.Z + math.sin(newAngle) * math.min(radius, distance)
+					)
+					local directionToTarget = (targetPos - part.Position).unit
+					part.Velocity = directionToTarget * attractionStrength
+				end
+			end
+		end
+	end)
+
+	-- Button functionality
+	ToggleButton.MouseButton1Click:Connect(function()
+		ringPartsEnabled = not ringPartsEnabled
+		ToggleButton.Text = ringPartsEnabled and "Ring Parts On" or "Ring Parts Off"
+		ToggleButton.BackgroundColor3 = ringPartsEnabled and Color3.fromRGB(50, 205, 50) or Color3.fromRGB(160, 82, 45)
+		playSound("12221967")
+	end)
+
+	DecreaseRadius.MouseButton1Click:Connect(function()
+		radius = math.max(10, radius - 5)
+		RadiusDisplay.Text = "Radius: " .. radius
+		playSound("12221967")
+	end)
+
+	IncreaseRadius.MouseButton1Click:Connect(function()
+		radius = math.min(100, radius + 5)
+		RadiusDisplay.Text = "Radius: " .. radius
+		playSound("12221967")
+	end)
+
+	-- Notifications
+	StarterGui:SetCore("SendNotification", {
+		Title = "Join me Discord !",
+		Text = "For More Op Scripts !",
+		Duration = 5
+	})
+
+	-- Get player thumbnail
+	local userId = Players:GetUserIdFromNameAsync("NannaDev")
+	local thumbType = Enum.ThumbnailType.HeadShot
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+
+	StarterGui:SetCore("SendNotification", {
+		Title = "Enjoy Super Ring [V3]",
+		Text = "Made By Yumm V3",
+		Icon = content,
+		Duration = 5
+	})
+
+	-- Chat message (Updated for new chat system)
+	local function SendChatMessage(message)
+		if TextChatService.ChatVersion == Enum.ChatVersion.TextChatService then
+			local textChannel = TextChatService.TextChannels.RBXGeneral
+			textChannel:SendAsync(message)
+		else
+			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
+		end
+	end
+end)
+
+Punch.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet(('http://pastefy.app/GvnHVjT5/raw'),true))()
+end)
+
+Gravity.MouseButton1Click:Connect(function()
+	-- Gui to Lua
+	-- Version: 3.2
+
+	-- Instances:
+
+	local ScreenGui = Instance.new("ScreenGui")
+	local Gravity = Instance.new("TextBox")
+	local Set = Instance.new("TextButton")
+	local Sit = Instance.new("TextButton")
+	local Reset = Instance.new("TextButton")
+
+	--Properties:
+
+	ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	ScreenGui.ResetOnSpawn = false
+
+	Gravity.Name = "Gravity"
+	Gravity.Parent = ScreenGui
+	Gravity.AnchorPoint = Vector2.new(0.5, 0.5)
+	Gravity.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Gravity.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Gravity.BorderSizePixel = 0
+	Gravity.Position = UDim2.new(0.890101373, 0, 0.974794209, 0)
+	Gravity.Size = UDim2.new(0, 199, 0, 29)
+	Gravity.Font = Enum.Font.SourceSans
+	Gravity.Text = ""
+	Gravity.TextColor3 = Color3.fromRGB(0, 0, 0)
+	Gravity.TextSize = 14.000
+
+	Set.Name = "Set"
+	Set.Parent = ScreenGui
+	Set.AnchorPoint = Vector2.new(0.5, 0.5)
+	Set.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Set.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Set.BorderSizePixel = 0
+	Set.Position = UDim2.new(0.820656955, 0, 0.931069911, 0)
+	Set.Size = UDim2.new(0, 73, 0, 22)
+	Set.Font = Enum.Font.SourceSans
+	Set.Text = "Set"
+	Set.TextColor3 = Color3.fromRGB(0, 0, 0)
+	Set.TextSize = 14.000
+
+	Sit.Name = "Sit"
+	Sit.Parent = ScreenGui
+	Sit.AnchorPoint = Vector2.new(0.5, 0.5)
+	Sit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Sit.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Sit.BorderSizePixel = 0
+	Sit.Position = UDim2.new(0.901124299, 0, 0.931069911, 0)
+	Sit.Size = UDim2.new(0, 73, 0, 22)
+	Sit.Font = Enum.Font.SourceSans
+	Sit.Text = "Sit"
+	Sit.TextColor3 = Color3.fromRGB(0, 0, 0)
+	Sit.TextSize = 14.000
+
+	Reset.Name = "Reset"
+	Reset.Parent = ScreenGui
+	Reset.AnchorPoint = Vector2.new(0.5, 0.5)
+	Reset.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Reset.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Reset.BorderSizePixel = 0
+	Reset.Position = UDim2.new(0.970568776, 0, 0.931069911, 0)
+	Reset.Size = UDim2.new(0, 52, 0, 22)
+	Reset.Font = Enum.Font.SourceSans
+	Reset.Text = "Reset"
+	Reset.TextColor3 = Color3.fromRGB(0, 0, 0)
+	Reset.TextSize = 14.000
+
+	local plr = game.Players.LocalPlayer
+
+	Reset.MouseButton1Click:Connect(function()
+		workspace.Gravity = 196.2
+	end)
+
+	Set.MouseButton1Click:Connect(function()
+		workspace.Gravity = tonumber(Gravity.Text)
+	end)
+
+	Sit.MouseButton1Click:Connect(function()
+		plr.Character.Humanoid.Sit = true
+	end)
 end)
