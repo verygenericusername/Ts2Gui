@@ -453,6 +453,7 @@ UIListLayout.FillDirection = Enum.FillDirection.Horizontal
 UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
 UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
 UIListLayout.Padding = UDim.new(0, 5)
+UIListLayout.Wraps = true
 
 Fling.Name = "Fling"
 Fling.Parent = ScrollingFrame
