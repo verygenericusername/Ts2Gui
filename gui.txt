@@ -87,10 +87,6 @@ local Wind = Instance.new("TextLabel")
 
 --Properties:
 
-TS2Gui.Name = "TS2Gui"
-TS2Gui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-TS2Gui.ResetOnSpawn = false
-
 Vehicles.Name = "Vehicles"
 Vehicles.Parent = TS2Gui
 Vehicles.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -847,6 +843,9 @@ Wind.TextColor3 = Color3.fromRGB(255, 255, 255)
 Wind.TextScaled = true
 Wind.TextSize = 14.000
 Wind.TextWrapped = true
+TS2Gui.Name = "TS2Gui"
+TS2Gui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+TS2Gui.ResetOnSpawn = false
 
 local plr = game.Players.LocalPlayer
 Frame.Active = true
