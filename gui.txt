@@ -449,11 +449,11 @@ ScrollingFrame.ScrollBarThickness = 5
 UICorner_3.Parent = ScrollingFrame
 
 UIListLayout.Parent = ScrollingFrame
+UIListLayout.Wraps = true
 UIListLayout.FillDirection = Enum.FillDirection.Horizontal
 UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
 UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
 UIListLayout.Padding = UDim.new(0, 5)
-UIListLayout.Wraps = true
 
 Fling.Name = "Fling"
 Fling.Parent = ScrollingFrame
